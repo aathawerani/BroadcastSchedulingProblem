@@ -1,0 +1,5 @@
+conda create -n tf2 python=3.9
+pip install --upgrade https://storage.googleapis.com/tensorflow/linux/cpu/tensorflow_cpu-2.5.0-cp39-cp39-manylinux2010_x86_64.whl
+pip install tensorflow-probability
+pip install gin-config
+pip install gym
